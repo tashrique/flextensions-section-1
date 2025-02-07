@@ -76,6 +76,7 @@ GEM
     base64 (0.2.0)
     bcrypt_pbkdf (1.1.1)
     bcrypt_pbkdf (1.1.1-arm64-darwin)
+    bcrypt_pbkdf (1.1.1-x86_64-darwin)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
     bindex (0.8.1)
@@ -117,7 +118,7 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.9.1)
-    kamal (2.5.1)
+    kamal (2.5.2)
       activesupport (>= 7.0)
       base64 (~> 0.2)
       bcrypt_pbkdf (~> 1.0)
@@ -166,6 +167,8 @@ GEM
     nokogiri (1.18.2-arm-linux-musl)
       racc (~> 1.4)
     nokogiri (1.18.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.2-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.2-x86_64-linux-gnu)
       racc (~> 1.4)
@@ -287,6 +290,7 @@ GEM
     sqlite3 (2.5.0-arm-linux-gnu)
     sqlite3 (2.5.0-arm-linux-musl)
     sqlite3 (2.5.0-arm64-darwin)
+    sqlite3 (2.5.0-x86_64-darwin)
     sqlite3 (2.5.0-x86_64-linux-gnu)
     sqlite3 (2.5.0-x86_64-linux-musl)
     sshkit (1.23.2)
@@ -302,6 +306,7 @@ GEM
     thruster (0.1.10)
     thruster (0.1.10-aarch64-linux)
     thruster (0.1.10-arm64-darwin)
+    thruster (0.1.10-x86_64-darwin)
     thruster (0.1.10-x86_64-linux)
     timeout (0.4.3)
     turbo-rails (2.0.11)
@@ -332,6 +337,7 @@ PLATFORMS
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin
+  x86_64-darwin
   x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
