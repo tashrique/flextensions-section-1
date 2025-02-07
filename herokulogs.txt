@@ -1,0 +1,324 @@
+2025-02-07T20:36:22.821489+00:00 app[web.1]: 
+2025-02-07T20:36:22.821489+00:00 app[web.1]: default
+2025-02-07T20:36:22.821489+00:00 app[web.1]: development
+2025-02-07T20:36:22.821489+00:00 app[web.1]: test
+2025-02-07T20:36:22.821490+00:00 app[web.1]: production
+2025-02-07T20:36:22.821490+00:00 app[web.1]: 
+2025-02-07T20:36:22.821493+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/database_configurations.rb:179:in `resolve'
+2025-02-07T20:36:22.821494+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:391:in `resolve_config_for_connection'
+2025-02-07T20:36:22.821494+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:100:in `block (2 levels) in connects_to'
+2025-02-07T20:36:22.821494+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:99:in `each'
+2025-02-07T20:36:22.821495+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:99:in `block in connects_to'
+2025-02-07T20:36:22.821495+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:98:in `each'
+2025-02-07T20:36:22.821495+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:98:in `connects_to'
+2025-02-07T20:36:22.821495+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:7:in `<class:Record>'
+2025-02-07T20:36:22.821495+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:4:in `<module:SolidCable>'
+2025-02-07T20:36:22.821496+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:3:in `<main>'
+2025-02-07T20:36:22.821496+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:36:22.821496+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:36:22.821496+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:36:22.821497+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:26:in `require'
+2025-02-07T20:36:22.821497+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/message.rb:4:in `<module:SolidCable>'
+2025-02-07T20:36:22.821497+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/message.rb:3:in `<main>'
+2025-02-07T20:36:22.821497+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:36:22.821497+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:36:22.821497+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:36:22.821497+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:26:in `require'
+2025-02-07T20:36:22.821501+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/cref.rb:60:in `const_get'
+2025-02-07T20:36:22.821501+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/cref.rb:60:in `get'
+2025-02-07T20:36:22.821501+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:173:in `block in actual_eager_load_dir'
+2025-02-07T20:36:22.821501+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:47:in `block in ls'
+2025-02-07T20:36:22.821501+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:25:in `each'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:25:in `ls'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:168:in `actual_eager_load_dir'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:17:in `block (2 levels) in eager_load'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:16:in `each'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:16:in `block in eager_load'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:10:in `synchronize'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:10:in `eager_load'
+2025-02-07T20:36:22.821502+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:413:in `block in eager_load_all'
+2025-02-07T20:36:22.821504+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:411:in `each'
+2025-02-07T20:36:22.821504+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:411:in `eager_load_all'
+2025-02-07T20:36:22.821504+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/application/finisher.rb:79:in `block in <module:Finisher>'
+2025-02-07T20:36:22.821504+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:32:in `instance_exec'
+2025-02-07T20:36:22.821504+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:32:in `run'
+2025-02-07T20:36:22.821504+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:61:in `block in run_initializers'
+2025-02-07T20:36:22.821504+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:228:in `block in tsort_each'
+2025-02-07T20:36:22.821505+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2025-02-07T20:36:22.821505+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2025-02-07T20:36:22.821505+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2025-02-07T20:36:22.821508+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `each'
+2025-02-07T20:36:22.821508+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `call'
+2025-02-07T20:36:22.821508+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `each_strongly_connected_component'
+2025-02-07T20:36:22.821508+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:226:in `tsort_each'
+2025-02-07T20:36:22.821509+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:205:in `tsort_each'
+2025-02-07T20:36:22.821509+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:60:in `run_initializers'
+2025-02-07T20:36:22.821509+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/application.rb:440:in `initialize!'
+2025-02-07T20:36:22.821509+00:00 app[web.1]: from /app/config/environment.rb:5:in `<main>'
+2025-02-07T20:36:22.821509+00:00 app[web.1]: from config.ru:3:in `require_relative'
+2025-02-07T20:36:22.821510+00:00 app[web.1]: from config.ru:3:in `block (2 levels) in <main>'
+2025-02-07T20:36:22.821510+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:108:in `eval'
+2025-02-07T20:36:22.821514+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:108:in `new_from_string'
+2025-02-07T20:36:22.821514+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:97:in `load_file'
+2025-02-07T20:36:22.821514+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:67:in `parse_file'
+2025-02-07T20:36:22.821514+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:354:in `build_app_and_options_from_config'
+2025-02-07T20:36:22.821514+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:263:in `app'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:424:in `wrapped_app'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:326:in `block in start'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:382:in `handle_profiling'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:325:in `start'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:38:in `start'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:145:in `block in perform'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from <internal:kernel>:90:in `tap'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+2025-02-07T20:36:22.821515+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+2025-02-07T20:36:22.821516+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+2025-02-07T20:36:22.821516+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+2025-02-07T20:36:22.821516+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+2025-02-07T20:36:22.821516+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+2025-02-07T20:36:22.821516+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+2025-02-07T20:36:22.821516+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+2025-02-07T20:36:22.821518+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:36:22.821521+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:36:22.821521+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:36:22.821525+00:00 app[web.1]: from bin/rails:4:in `<main>'
+2025-02-07T20:36:22.880190+00:00 heroku[web.1]: Process exited with status 1
+2025-02-07T20:36:22.902148+00:00 heroku[web.1]: State changed from starting to crashed
+2025-02-07T20:36:25.733036+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=3213bbbf-d552-4213-9784-4f55d9ed4570 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:36:26.084127+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=3c711488-21fe-4da0-8dea-6e9b5f99ae47 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:36:27.091201+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=2f70bdf8-36f0-4d54-8cf5-118f6bf2bc2a fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:36:27.352025+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=b9e9616a-df7c-4143-aead-71659fe36330 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:43:52.120086+00:00 app[api]: Starting process with command `rails db:migrate` by user tashrique@berkeley.edu
+2025-02-07T20:43:54.708220+00:00 heroku[run.3353]: State changed from starting to up
+2025-02-07T20:43:59.489166+00:00 heroku[run.3353]: Process exited with status 0
+2025-02-07T20:43:59.519104+00:00 heroku[run.3353]: State changed from up to complete
+2025-02-07T20:44:08.715114+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=0415061e-fe0e-43cd-9477-200a0d8ebb61 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:44:08.998850+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=31cd9268-bac3-4087-91b2-bd5019d9adb2 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:44:10.734391+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=b1f7832f-f0ad-49f5-815b-be4fe6ffce9c fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:44:11.000937+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=3c86bc32-9da0-49b6-a4e1-58dc717ac268 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:45:37.429902+00:00 heroku[web.1]: State changed from crashed to starting
+2025-02-07T20:45:39.984146+00:00 heroku[web.1]: Starting process with command `bin/rails server -p ${PORT:-5000} -e production`
+2025-02-07T20:45:42.096710+00:00 app[web.1]: => Booting Puma
+2025-02-07T20:45:42.096749+00:00 app[web.1]: => Rails 8.0.1 application starting in production
+2025-02-07T20:45:42.096749+00:00 app[web.1]: => Run `bin/rails server --help` for more startup options
+2025-02-07T20:45:42.689890+00:00 app[web.1]: Exiting
+2025-02-07T20:45:42.690052+00:00 app[web.1]: /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/database_configurations.rb:229:in `resolve_symbol_connection': The `cable` database is not configured for the `production` environment. (ActiveRecord::AdapterNotSpecified)
+2025-02-07T20:45:42.690053+00:00 app[web.1]: 
+2025-02-07T20:45:42.690054+00:00 app[web.1]: Available database configurations are:
+2025-02-07T20:45:42.690054+00:00 app[web.1]: 
+2025-02-07T20:45:42.690054+00:00 app[web.1]: default
+2025-02-07T20:45:42.690054+00:00 app[web.1]: development
+2025-02-07T20:45:42.690054+00:00 app[web.1]: test
+2025-02-07T20:45:42.690055+00:00 app[web.1]: production
+2025-02-07T20:45:42.690055+00:00 app[web.1]: 
+2025-02-07T20:45:42.690063+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/database_configurations.rb:179:in `resolve'
+2025-02-07T20:45:42.690065+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:391:in `resolve_config_for_connection'
+2025-02-07T20:45:42.690065+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:100:in `block (2 levels) in connects_to'
+2025-02-07T20:45:42.690065+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:99:in `each'
+2025-02-07T20:45:42.690066+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:99:in `block in connects_to'
+2025-02-07T20:45:42.690066+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:98:in `each'
+2025-02-07T20:45:42.690066+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:98:in `connects_to'
+2025-02-07T20:45:42.690066+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:7:in `<class:Record>'
+2025-02-07T20:45:42.690066+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:4:in `<module:SolidCable>'
+2025-02-07T20:45:42.690068+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:3:in `<main>'
+2025-02-07T20:45:42.690068+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:45:42.690068+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:45:42.690069+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:45:42.690069+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:26:in `require'
+2025-02-07T20:45:42.690069+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/message.rb:4:in `<module:SolidCable>'
+2025-02-07T20:45:42.690069+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/message.rb:3:in `<main>'
+2025-02-07T20:45:42.690070+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:45:42.690070+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:45:42.690070+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:45:42.690070+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:26:in `require'
+2025-02-07T20:45:42.690071+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/cref.rb:60:in `const_get'
+2025-02-07T20:45:42.690071+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/cref.rb:60:in `get'
+2025-02-07T20:45:42.690071+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:173:in `block in actual_eager_load_dir'
+2025-02-07T20:45:42.690071+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:47:in `block in ls'
+2025-02-07T20:45:42.690072+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:25:in `each'
+2025-02-07T20:45:42.690072+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:25:in `ls'
+2025-02-07T20:45:42.690072+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:168:in `actual_eager_load_dir'
+2025-02-07T20:45:42.690072+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:17:in `block (2 levels) in eager_load'
+2025-02-07T20:45:42.690072+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:16:in `each'
+2025-02-07T20:45:42.690073+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:16:in `block in eager_load'
+2025-02-07T20:45:42.690073+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:10:in `synchronize'
+2025-02-07T20:45:42.690073+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:10:in `eager_load'
+2025-02-07T20:45:42.690073+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:413:in `block in eager_load_all'
+2025-02-07T20:45:42.690076+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:411:in `each'
+2025-02-07T20:45:42.690076+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:411:in `eager_load_all'
+2025-02-07T20:45:42.690076+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/application/finisher.rb:79:in `block in <module:Finisher>'
+2025-02-07T20:45:42.690076+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:32:in `instance_exec'
+2025-02-07T20:45:42.690076+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:32:in `run'
+2025-02-07T20:45:42.690077+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:61:in `block in run_initializers'
+2025-02-07T20:45:42.690077+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:228:in `block in tsort_each'
+2025-02-07T20:45:42.690077+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2025-02-07T20:45:42.690077+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2025-02-07T20:45:42.690078+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2025-02-07T20:45:42.690082+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `each'
+2025-02-07T20:45:42.690082+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `call'
+2025-02-07T20:45:42.690083+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `each_strongly_connected_component'
+2025-02-07T20:45:42.690083+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:226:in `tsort_each'
+2025-02-07T20:45:42.690083+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:205:in `tsort_each'
+2025-02-07T20:45:42.690083+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:60:in `run_initializers'
+2025-02-07T20:45:42.690083+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/application.rb:440:in `initialize!'
+2025-02-07T20:45:42.690084+00:00 app[web.1]: from /app/config/environment.rb:5:in `<main>'
+2025-02-07T20:45:42.690084+00:00 app[web.1]: from config.ru:3:in `require_relative'
+2025-02-07T20:45:42.690085+00:00 app[web.1]: from config.ru:3:in `block (2 levels) in <main>'
+2025-02-07T20:45:42.690086+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:108:in `eval'
+2025-02-07T20:45:42.690090+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:108:in `new_from_string'
+2025-02-07T20:45:42.690091+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:97:in `load_file'
+2025-02-07T20:45:42.690091+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:67:in `parse_file'
+2025-02-07T20:45:42.690091+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:354:in `build_app_and_options_from_config'
+2025-02-07T20:45:42.690091+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:263:in `app'
+2025-02-07T20:45:42.690092+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:424:in `wrapped_app'
+2025-02-07T20:45:42.690092+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:326:in `block in start'
+2025-02-07T20:45:42.690092+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:382:in `handle_profiling'
+2025-02-07T20:45:42.690092+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:325:in `start'
+2025-02-07T20:45:42.690092+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:38:in `start'
+2025-02-07T20:45:42.690092+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:145:in `block in perform'
+2025-02-07T20:45:42.690093+00:00 app[web.1]: from <internal:kernel>:90:in `tap'
+2025-02-07T20:45:42.690093+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+2025-02-07T20:45:42.690093+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+2025-02-07T20:45:42.690093+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+2025-02-07T20:45:42.690093+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+2025-02-07T20:45:42.690094+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+2025-02-07T20:45:42.690094+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+2025-02-07T20:45:42.690094+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+2025-02-07T20:45:42.690094+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+2025-02-07T20:45:42.690094+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+2025-02-07T20:45:42.690095+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+2025-02-07T20:45:42.690098+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:45:42.690101+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:45:42.690102+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:45:42.690102+00:00 app[web.1]: from bin/rails:4:in `<main>'
+2025-02-07T20:45:42.773987+00:00 heroku[web.1]: Process exited with status 1
+2025-02-07T20:45:42.805435+00:00 heroku[web.1]: State changed from starting to crashed
+2025-02-07T20:46:21.292637+00:00 app[api]: Starting process with command `rails db:migrate` by user tashrique@berkeley.edu
+2025-02-07T20:46:23.724115+00:00 heroku[run.2391]: State changed from starting to up
+2025-02-07T20:46:28.480529+00:00 heroku[run.2391]: Process exited with status 0
+2025-02-07T20:46:28.505561+00:00 heroku[run.2391]: State changed from up to complete
+2025-02-07T20:46:29.591403+00:00 app[api]: Starting process with command `rails solid_queue:install:migrations` by user tashrique@berkeley.edu
+2025-02-07T20:46:32.099705+00:00 heroku[run.1751]: State changed from starting to up
+2025-02-07T20:46:36.380355+00:00 heroku[run.1751]: Process exited with status 1
+2025-02-07T20:46:36.406254+00:00 heroku[run.1751]: State changed from up to complete
+2025-02-07T20:46:37.907003+00:00 app[api]: Starting process with command `rails solid_cable:install:migrations` by user tashrique@berkeley.edu
+2025-02-07T20:46:40.424217+00:00 heroku[run.6257]: State changed from starting to up
+2025-02-07T20:46:44.939243+00:00 heroku[run.6257]: Process exited with status 1
+2025-02-07T20:46:44.963911+00:00 heroku[run.6257]: State changed from up to complete
+2025-02-07T20:46:46.700951+00:00 app[api]: Starting process with command `rails solid_cache:install:migrations` by user tashrique@berkeley.edu
+2025-02-07T20:46:49.267786+00:00 heroku[run.8306]: State changed from starting to up
+2025-02-07T20:46:53.659567+00:00 heroku[run.8306]: Process exited with status 1
+2025-02-07T20:46:53.682696+00:00 heroku[run.8306]: State changed from up to complete
+2025-02-07T20:46:54.995324+00:00 app[api]: Starting process with command `rails db:migrate` by user tashrique@berkeley.edu
+2025-02-07T20:46:57.461933+00:00 heroku[run.5929]: State changed from starting to up
+2025-02-07T20:47:02.068617+00:00 heroku[run.5929]: Process exited with status 0
+2025-02-07T20:47:02.091692+00:00 heroku[run.5929]: State changed from up to complete
+2025-02-07T20:47:14.510004+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=a6d1a601-db0e-4a49-8b32-0e23b3487571 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:47:14.769951+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=3a3305b6-3afb-4e67-b4de-7cdeee1d0135 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:47:15.991252+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=32b2a18b-4ecb-4241-9dd0-dde2b4efceb4 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:47:16.248399+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=9058c7cf-1026-4939-9f07-39ec914e0fb8 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:47:16.620183+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=6f085dc0-8d46-4930-b788-edecf6e6c24b fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:47:16.867190+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=08dca006-58db-4175-aa0e-ed05dbfc989b fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:48:15.849659+00:00 heroku[web.1]: State changed from crashed to starting
+2025-02-07T20:48:15.583379+00:00 app[api]: Release v12 created by user tashrique@berkeley.edu
+2025-02-07T20:48:15.583379+00:00 app[api]: Set RAILS_LOG_LEVEL config vars by user tashrique@berkeley.edu
+2025-02-07T20:48:17.831356+00:00 heroku[web.1]: Starting process with command `bin/rails server -p ${PORT:-5000} -e production`
+2025-02-07T20:48:19.433867+00:00 app[web.1]: => Booting Puma
+2025-02-07T20:48:19.433904+00:00 app[web.1]: => Rails 8.0.1 application starting in production
+2025-02-07T20:48:19.433904+00:00 app[web.1]: => Run `bin/rails server --help` for more startup options
+2025-02-07T20:48:19.925561+00:00 app[web.1]: Exiting
+2025-02-07T20:48:19.925722+00:00 app[web.1]: /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/database_configurations.rb:229:in `resolve_symbol_connection': The `cable` database is not configured for the `production` environment. (ActiveRecord::AdapterNotSpecified)
+2025-02-07T20:48:19.925722+00:00 app[web.1]: 
+2025-02-07T20:48:19.925725+00:00 app[web.1]: Available database configurations are:
+2025-02-07T20:48:19.925725+00:00 app[web.1]: 
+2025-02-07T20:48:19.925726+00:00 app[web.1]: default
+2025-02-07T20:48:19.925726+00:00 app[web.1]: development
+2025-02-07T20:48:19.925726+00:00 app[web.1]: test
+2025-02-07T20:48:19.925726+00:00 app[web.1]: production
+2025-02-07T20:48:19.925726+00:00 app[web.1]: 
+2025-02-07T20:48:19.925727+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/database_configurations.rb:179:in `resolve'
+2025-02-07T20:48:19.925728+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:391:in `resolve_config_for_connection'
+2025-02-07T20:48:19.925728+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:100:in `block (2 levels) in connects_to'
+2025-02-07T20:48:19.925729+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:99:in `each'
+2025-02-07T20:48:19.925729+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:99:in `block in connects_to'
+2025-02-07T20:48:19.925729+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:98:in `each'
+2025-02-07T20:48:19.925729+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/activerecord-8.0.1/lib/active_record/connection_handling.rb:98:in `connects_to'
+2025-02-07T20:48:19.925729+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:7:in `<class:Record>'
+2025-02-07T20:48:19.925730+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:4:in `<module:SolidCable>'
+2025-02-07T20:48:19.925730+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/record.rb:3:in `<main>'
+2025-02-07T20:48:19.925731+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:48:19.925731+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:48:19.925731+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:48:19.925731+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:26:in `require'
+2025-02-07T20:48:19.925731+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/message.rb:4:in `<module:SolidCable>'
+2025-02-07T20:48:19.925732+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/solid_cable-3.0.7/app/models/solid_cable/message.rb:3:in `<main>'
+2025-02-07T20:48:19.925732+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:48:19.925732+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:48:19.925732+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:48:19.925732+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/core_ext/kernel.rb:26:in `require'
+2025-02-07T20:48:19.925744+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/cref.rb:60:in `const_get'
+2025-02-07T20:48:19.925744+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/cref.rb:60:in `get'
+2025-02-07T20:48:19.925744+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:173:in `block in actual_eager_load_dir'
+2025-02-07T20:48:19.925744+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:47:in `block in ls'
+2025-02-07T20:48:19.925744+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:25:in `each'
+2025-02-07T20:48:19.925744+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/helpers.rb:25:in `ls'
+2025-02-07T20:48:19.925745+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:168:in `actual_eager_load_dir'
+2025-02-07T20:48:19.925745+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:17:in `block (2 levels) in eager_load'
+2025-02-07T20:48:19.925745+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:16:in `each'
+2025-02-07T20:48:19.925745+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:16:in `block in eager_load'
+2025-02-07T20:48:19.925745+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:10:in `synchronize'
+2025-02-07T20:48:19.925745+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader/eager_load.rb:10:in `eager_load'
+2025-02-07T20:48:19.925745+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:413:in `block in eager_load_all'
+2025-02-07T20:48:19.925747+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:411:in `each'
+2025-02-07T20:48:19.925747+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/zeitwerk-2.7.1/lib/zeitwerk/loader.rb:411:in `eager_load_all'
+2025-02-07T20:48:19.925747+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/application/finisher.rb:79:in `block in <module:Finisher>'
+2025-02-07T20:48:19.925747+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:32:in `instance_exec'
+2025-02-07T20:48:19.925748+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:32:in `run'
+2025-02-07T20:48:19.925748+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:61:in `block in run_initializers'
+2025-02-07T20:48:19.925748+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:228:in `block in tsort_each'
+2025-02-07T20:48:19.925748+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2025-02-07T20:48:19.925748+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2025-02-07T20:48:19.925748+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2025-02-07T20:48:19.925753+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `each'
+2025-02-07T20:48:19.925753+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `call'
+2025-02-07T20:48:19.925753+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:347:in `each_strongly_connected_component'
+2025-02-07T20:48:19.925753+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:226:in `tsort_each'
+2025-02-07T20:48:19.925753+00:00 app[web.1]: from /app/vendor/ruby-3.2.2/lib/ruby/3.2.0/tsort.rb:205:in `tsort_each'
+2025-02-07T20:48:19.925753+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/initializable.rb:60:in `run_initializers'
+2025-02-07T20:48:19.925753+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/application.rb:440:in `initialize!'
+2025-02-07T20:48:19.925754+00:00 app[web.1]: from /app/config/environment.rb:5:in `<main>'
+2025-02-07T20:48:19.925754+00:00 app[web.1]: from config.ru:3:in `require_relative'
+2025-02-07T20:48:19.925755+00:00 app[web.1]: from config.ru:3:in `block (2 levels) in <main>'
+2025-02-07T20:48:19.925755+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:108:in `eval'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:108:in `new_from_string'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:97:in `load_file'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rack-3.1.9/lib/rack/builder.rb:67:in `parse_file'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:354:in `build_app_and_options_from_config'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:263:in `app'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:424:in `wrapped_app'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:326:in `block in start'
+2025-02-07T20:48:19.925759+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:382:in `handle_profiling'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/rackup-2.2.1/lib/rackup/server.rb:325:in `start'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:38:in `start'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:145:in `block in perform'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from <internal:kernel>:90:in `tap'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands/server/server_command.rb:136:in `perform'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+2025-02-07T20:48:19.925760+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command/base.rb:178:in `invoke_command'
+2025-02-07T20:48:19.925761+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+2025-02-07T20:48:19.925761+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command/base.rb:73:in `perform'
+2025-02-07T20:48:19.925761+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:65:in `block in invoke'
+2025-02-07T20:48:19.925761+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:143:in `with_argv'
+2025-02-07T20:48:19.925761+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/command.rb:63:in `invoke'
+2025-02-07T20:48:19.925761+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/railties-8.0.1/lib/rails/commands.rb:18:in `<main>'
+2025-02-07T20:48:19.925761+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:48:19.925765+00:00 app[web.1]: from <internal:/app/vendor/ruby-3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-02-07T20:48:19.925765+00:00 app[web.1]: from /app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2025-02-07T20:48:19.925765+00:00 app[web.1]: from bin/rails:4:in `<main>'
+2025-02-07T20:48:19.985242+00:00 heroku[web.1]: Process exited with status 1
+2025-02-07T20:48:20.003485+00:00 heroku[web.1]: State changed from starting to crashed
+2025-02-07T20:48:21.884721+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=726dd770-d09e-4ecc-b3a3-b1f37f8364c0 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
+2025-02-07T20:48:22.131446+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sp25-02-d7279b3a6f59.herokuapp.com request_id=ef6d9c9f-5dc3-43a0-9c25-8fcfbc7fbc86 fwd="136.152.214.175" dyno= connect= service= status=503 bytes= protocol=https
