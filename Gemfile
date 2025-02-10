@@ -39,6 +39,9 @@ gem "kamal", require: false
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
 
+# Auto-testing
+gem "simplecov", require: false, group: :test
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -63,4 +66,14 @@ end
 
 group :production do
   gem "pg"
+end
+
+# setup Cucumber, RSpec, Guard support
+group :test do
+  # gem 'rspec-rails'
+  gem "guard-rspec"
+  # gem 'simplecov', :require => false
+  gem "cucumber-rails", require: false
+  gem "cucumber-rails-training-wheels" # basic imperative step defs like "Then I should see..."
+  gem "database_cleaner" # required by Cucumber
 end
